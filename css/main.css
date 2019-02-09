@@ -1,0 +1,235 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: therohitjha Business Portfolio
+    Description: This Is A Business Portfolio Website Using Bootstrap 4.2
+    Author: Rohit Jha
+-----------------------------------------------------------------------------------
+ */
+
+
+
+html{
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+
+
+
+.map{
+  width: 100%;
+  height: 100vh;
+}
+
+/*Pricing Start*/
+
+
+
+section.pricing {
+  margin-top: 4rem;
+  background: #17a2b8;
+  padding: 2rem;
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+
+
+
+/* Pricing Ends */
+
+
+   /* Typing Illusion Start */
+
+   .typing-illusion{
+    animation: type 2s steps(7) infinite,blink .5s infinite alternate;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 9ch;
+    border-right: 2px solid;
+    margin: 0 auto;
+  }
+  
+  
+  @keyframes type{
+    from {
+      width: 0;
+    }
+  }
+    
+    @keyframes blink{
+      
+      50%{
+         border-color: transparent;
+      }
+    }
+
+
+  /* Typing Illusion Ends */
+
+
+/* Testimonial Start */
+
+  .custom-testimonial h2 {
+    color: #000;
+    font-size: 26px;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+    margin: 30px 0 60px;
+  }
+
+  .custom-testimonial h2::after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    height: 4px;
+    border-radius: 1px;
+    background: #17a2b8;
+    left: 0;
+    right: 0;
+    bottom: -20px;
+  }
+
+  .carousel {
+    margin: 0 auto;
+    padding: 0 70px;
+  }
+  .carousel .item {
+    color: #999;
+    overflow: hidden;
+      min-height: 120px;
+    font-size: 13px;
+  }
+  .carousel .media {
+    position: relative;
+    padding: 0 0 0 20px;
+  }
+  .carousel .media img {
+    width: 75px;
+    height: 75px;
+    display: block;
+    border-radius: 50%;
+  }
+  .carousel .testimonial-wrapper {
+    padding: 0 10px;
+  }
+  .carousel .testimonial {
+      color: #808080;
+      position: relative;
+      padding: 15px;
+      background: #f1f1f1;
+      border: 1px solid #efefef;
+      border-radius: 3px;
+    margin-bottom: 15px;
+  }
+  .carousel .testimonial::after {
+    content: "";
+    width: 15px;
+    height: 15px;
+    display: block;
+    background: #f1f1f1;
+    border: 1px solid #efefef;
+    border-width: 0 0 1px 1px;
+    position: absolute;
+    bottom: -8px;
+    left: 46px;
+    transform: rotateZ(-46deg);
+  }
+  .carousel .star-rating li {
+    padding: 0 2px;
+  }
+  .carousel .star-rating i {
+    font-size: 16px;
+    color: #ffdc12;
+  }
+  .carousel .overview {
+    padding: 3px 0 0 15px;
+  }
+  .carousel .overview .details {
+    padding: 5px 0 8px;
+  }
+  .carousel .overview b {
+    text-transform: uppercase;
+    color: #17a2b8;
+  }
+  .carousel .carousel-indicators {
+    bottom: -70px;
+  }
+  .carousel-indicators li, .carousel-indicators li.active {
+    width: 18px;
+      height: 18px;
+    border-radius: 50%;
+    margin: 1px 2px;
+  }
+  .carousel-indicators li {	
+      background: #e2e2e2;
+      border: 4px solid #fff;
+  }
+  .carousel-indicators li.active {
+    color: #fff;
+      background: #17a2b8;
+      border: 5px double;    
+  }
+
+  /* Testimobial Ends */
