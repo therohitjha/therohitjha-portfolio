@@ -30,6 +30,19 @@ html{
     }
   }
 
+.bg-infoo{
+background-image: url('../images/img/9.jpg');
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+  }
+  .bg-infooo{
+    background-image: url('../images/img/5.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+      }
+
 
 
 .map{
