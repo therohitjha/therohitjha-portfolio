@@ -246,3 +246,17 @@ section.pricing {
   }
 
   /* Testimobial Ends */
+
+  html,body{
+    height: 100%;
+  }
+
+
+    @media (max-width: 480px){
+
+      .fixed-bottom {
+       
+        position: unset;
+    }
+
+    }
